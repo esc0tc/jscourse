@@ -67,7 +67,9 @@ mark.average = calcAverage(mark.tips);
 console.log(john);
 console.log(mark);
 
-
+if (john.average > mark.average) {
+  console.log(john.fullName + '\'s average is higher than Mark');
+}
 
 /*for (var i = 0; i < 10; i++) {
   console.log(i);
